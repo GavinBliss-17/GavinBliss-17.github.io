@@ -2,10 +2,12 @@
 https://gavinbliss-17.github.io/
 
 Overview
-This repository contains my enhanced projects and related documentation, representing my growth and expertise in computer science. Each project highlights a specific focus area:
+This repository contains my enhanced projects and related documentation, representing my growth in computer science. Each project highlights a specific focus area:
 
 Software Design and Engineering: Demonstrates modular design, secure coding practices, and full-stack development.
+
 Algorithms and Data Structures: Showcases optimization techniques, algorithm design, and the use of advanced data structures.
+
 Databases: Features schema design, query optimization, and secure database integration.
 
 Repository Structure is organized as follows:
