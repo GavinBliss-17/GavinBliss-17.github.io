@@ -15,7 +15,6 @@
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            /* background: url('assets/background.png') no-repeat center center fixed; */
             background-size: cover; /* Ensure the background scales properly */
             background-color: #FDF8E4; /* White/Cream background */
             color: #333333; /* Black text for the body */
@@ -29,7 +28,7 @@
 
         /* Link styling */
         a {
-            color: #00A5D9; /* Cyan for links */
+            color: #007AB8; /* Slightly darker cyan for links */
             text-decoration: none;
             font-family: 'Roboto', Arial, sans-serif; /* Roboto for links */
         }
@@ -37,12 +36,25 @@
             text-decoration: underline;
         }
 
+        /* Paragraph styling */
+        p {
+            max-width: 50%; /* Restrict paragraph width to 50% of the container */
+            margin: 0 auto; /* Center the paragraph horizontally */
+            line-height: 1.8; /* Slightly increase line height for better readability */
+        }
+
         /* List styling */
         ul {
             list-style-type: disc;
-            margin-left: 20px;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
             color: #333333; /* Black list items */
             font-family: 'Roboto', Arial, sans-serif; /* Roboto for lists */
+        }
+
+        /* List item styling */
+        li {
+            margin-left: 0; /* Ensure list items are flush with the left */
         }
 
         /* Project section styling */
@@ -53,11 +65,6 @@
             margin: 5px 0;
             font-family: 'Monofonto', Arial, sans-serif; /* Monofonto for project titles */
             color: #000000; /* Black for project titles */
-        }
-
-        /* Optional: Bright black styling */
-        .bright-black {
-            color: #333333; /* Bright black option */
         }
     </style>
 </head>
