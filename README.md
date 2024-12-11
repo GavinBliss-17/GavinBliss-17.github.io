@@ -12,6 +12,9 @@ Repository Structure
 The repository is organized as follows:
 
 index.html: The main ePortfolio web page. This HTML file introduces my work, provides project links, and highlights my skills.
+
 Enhanced Project Files/: Contains enhanced versions of my projects, improved to demonstrate my growth in computer science.
+
 Original Project Files/: Stores the original versions of the projects before enhancements.
+
 assets/: Includes any supporting assets, such as background images used in the ePortfolio.
