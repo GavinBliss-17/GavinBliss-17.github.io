@@ -5,38 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gavin Bliss's ePortfolio</title>
     <style>
+        /* Import Monofonto and Roboto fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Monofonto&display=swap');
+
         /* General body styling */
         body {
-            font-family: Monofonto, Arial, sans-serif;
+            font-family: 'Roboto', Arial, sans-serif; /* Roboto for body text */
             line-height: 1.6;
             margin: 0;
             padding: 20px;
             background: url('assets/background.png') no-repeat center center fixed;
-            background-color: #FFFFFF; /* White background */
-            color: #000000; /* Black text */
+            background-size: cover; /* Ensure the background scales properly */
+            background-color: #FFFFFF; /* Fallback to white background */
+            color: #000000; /* Black text for the body */
         }
+
+        /* Header styling */
         h1, h2 {
+            font-family: 'Monofonto', Arial, sans-serif; /* Monofonto for headers */
             color: #000000; /* Black headers */
         }
+
+        /* Link styling */
         a {
             color: #00BFFF; /* Bright cyan for links */
             text-decoration: none;
+            font-family: 'Roboto', Arial, sans-serif; /* Roboto for links */
         }
         a:hover {
             text-decoration: underline;
         }
+
+        /* List styling */
         ul {
             list-style-type: disc;
             margin-left: 20px;
             color: #000000; /* Black list items */
+            font-family: 'Roboto', Arial, sans-serif; /* Roboto for lists */
         }
+
+        /* Project section styling */
         .project {
             margin-bottom: 20px;
         }
         .project h3 {
             margin: 5px 0;
+            font-family: 'Monofonto', Arial, sans-serif; /* Monofonto for project titles */
             color: #000000; /* Black for project titles */
         }
+
         /* Optional: Bright black styling */
         .bright-black {
             color: #333333; /* Bright black option */
