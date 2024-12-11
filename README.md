@@ -8,8 +8,7 @@ Software Design and Engineering: Demonstrates modular design, secure coding prac
 Algorithms and Data Structures: Showcases optimization techniques, algorithm design, and the use of advanced data structures.
 Databases: Features schema design, query optimization, and secure database integration.
 
-Repository Structure
-The repository is organized as follows:
+Repository Structure is organized as follows:
 
 index.html: The main ePortfolio web page. This HTML file introduces my work, provides project links, and highlights my skills.
 
