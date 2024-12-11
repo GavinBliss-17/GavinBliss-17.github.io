@@ -15,7 +15,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-size: cover; /* Ensure the background scales properly */
+            max-width: 100%; /* Prevent overflow */
             background-color: #FDF8E4; /* White/Cream background */
             color: #333333; /* Black text for the body */
         }
@@ -28,7 +28,7 @@
 
         /* Link styling */
         a {
-            color: #007AB8; /* Slightly darker cyan for links */
+            color: #00A5D9; /* Slightly darker cyan for links */
             text-decoration: none;
             font-family: 'Roboto', Arial, sans-serif; /* Roboto for links */
         }
@@ -38,23 +38,18 @@
 
         /* Paragraph styling */
         p {
-            max-width: 50%; /* Restrict paragraph width to 50% of the container */
-            margin: 0 auto; /* Center the paragraph horizontally */
-            line-height: 1.8; /* Slightly increase line height for better readability */
+            max-width: 50%; /* Set maximum width to 50% of the page */
+            margin: 0; /* Remove default margin */
+            margin-bottom: 1em; /* Add space between paragraphs */
         }
 
         /* List styling */
         ul {
             list-style-type: disc;
-            margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
+            padding-left: 0; /* Remove default indentation */
+            margin-left: 0; /* Align to the far left */
             color: #333333; /* Black list items */
             font-family: 'Roboto', Arial, sans-serif; /* Roboto for lists */
-        }
-
-        /* List item styling */
-        li {
-            margin-left: 0; /* Ensure list items are flush with the left */
         }
 
         /* Project section styling */
@@ -64,7 +59,12 @@
         .project h3 {
             margin: 5px 0;
             font-family: 'Monofonto', Arial, sans-serif; /* Monofonto for project titles */
-            color: #000000; /* Black for project titles */
+            color: #333333; /* Black for project titles */
+        }
+
+        /* Optional: Bright black styling */
+        .bright-black {
+            color: #333333; /* Bright black option */
         }
     </style>
 </head>
